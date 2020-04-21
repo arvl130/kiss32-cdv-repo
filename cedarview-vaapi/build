@@ -1,0 +1,3 @@
+#! /bin/sh -e
+
+tar xf cedarview-vaapi-v1.0.3_bee.tar -C "$1"
