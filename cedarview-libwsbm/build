@@ -1,0 +1,10 @@
+#! /bin/sh -e
+
+tar xf cedarview-libwsbm-1.1.0.tar
+cd cedarview-libwsbm-1.1.0/
+mv ../psb_headers/ttm .
+sed -i 's|--enable-maintainer-mode|--prefix=/usr|' autogen.sh
+./autogen.sh
+
+make
+make DESTDIR="$1" install
