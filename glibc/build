@@ -1,0 +1,25 @@
+#! /bin/sh -e
+
+cd glibc
+for patch in ../*.patch; do
+    patch -p1 < "$patch"
+done
+
+mkdir -p ../glibc-build
+cd ../glibc-build
+
+../glibc/configure \
+    --prefix=/usr \
+    --enable-kernel=3.2.0 \
+    --disable-werror \
+    CFLAGS="-O2"
+
+make
+make install_root="$1" install
+
+# configure script doesn't seem to respect --sbindir
+# and --libdir parameters, so we move the directories
+# ourselves.
+mv "$1/lib"/* "$1/usr/lib"
+mv "$1/sbin"/* "$1/usr/sbin"
+rmdir "$1/lib" "$1/sbin"

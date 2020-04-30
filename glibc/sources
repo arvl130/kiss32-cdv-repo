@@ -1,0 +1,4 @@
+https://github.com/bminor/glibc/archive/bc174f20b83d19167ecac14ce0762eddbe47cc64.tar.gz glibc
+patches/locs21.patch
+patches/no-getrandom.patch
+patches/pthread-longjump.patch
