@@ -1,0 +1,8 @@
+makedepend make
+python2    make
+libdrm
+libXext
+libXdamage
+libXt
+libxml2
+llvm
