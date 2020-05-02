@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+for protodir in $(realpath *); do
+    cd "$protodir"
+    ./configure --prefix=/usr
+    make
+    make DESTDIR="$1" install
+done
