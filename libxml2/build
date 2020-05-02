@@ -1,0 +1,19 @@
+#! /bin/sh
+
+# Build twice for both python versions
+# if both are installed.
+if type python3 && type python2; then
+    for python_ver in python2 python3; do
+        ./configure \
+            --prefix=/usr \
+            --with-python="/usr/bin/$python_ver"
+        make
+        make DESTDIR="$1" install
+    done
+else
+    # Only once otherwise.
+    ./configure \
+        --prefix=/usr
+    make
+    make DESTDIR="$1" install
+fi
