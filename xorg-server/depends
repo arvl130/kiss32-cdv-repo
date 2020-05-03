@@ -11,10 +11,12 @@ libXv
 libdmx
 libgcrypt
 libpciaccess
+libudev0-shim
 libxkbfile
 mesa
 pixman
 xkbcomp
+xkeyboard-config
 xorg-font-util
 xorg-util-macros
 xorgproto
