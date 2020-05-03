@@ -1,0 +1,6 @@
+#! /bin/sh -e
+
+make
+
+install -Dm755 libudev.so.0.0.9999 -t "$1/usr/lib"
+ln -s libudev.so.0.0.9999 "$1/usr/lib/libudev.so.0"
