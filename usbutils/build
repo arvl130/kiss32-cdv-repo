@@ -1,0 +1,12 @@
+#!/bin/sh -e
+
+sed -i 's/python/python2/' lsusb.py
+
+./configure \
+    --prefix=/usr
+
+make
+make DESTDIR="$1" install
+
+install -Dm644 usb.ids -t "$1/usr/share/misc"
+install -Dm644 pci.ids -t "$1/usr/share/misc"
