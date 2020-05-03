@@ -1,0 +1,4 @@
+gettext make
+libXt
+libXext
+xorg-util-macros make
