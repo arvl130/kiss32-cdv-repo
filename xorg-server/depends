@@ -1,4 +1,3 @@
-eudev
 libX11
 libXaw
 libXfont
@@ -11,10 +10,10 @@ libXv
 libdmx
 libgcrypt
 libpciaccess
-libudev0-shim
 libxkbfile
 mesa
 pixman
+udev
 xkbcomp
 xkeyboard-config
 xorg-font-util
