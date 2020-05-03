@@ -1,0 +1,5 @@
+freetype-harfbuzz
+libfontenc
+xorg-util-macros  make
+xorgproto         make
+xtrans            make

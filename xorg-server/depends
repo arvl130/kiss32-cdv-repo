@@ -1,0 +1,21 @@
+eudev
+libX11
+libXaw
+libXfont
+libXi
+libXmu
+libXrender
+libXres
+libXtst
+libXv
+libdmx
+libgcrypt
+libpciaccess
+libxkbfile
+mesa
+pixman
+xkbcomp
+xorg-font-util
+xorg-util-macros
+xorgproto
+xtrans make
