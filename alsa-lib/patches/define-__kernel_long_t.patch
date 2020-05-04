@@ -1,0 +1,13 @@
+Source: https://programmer.help/blogs/5e5dbbfe8b532.html
+
+--- a/src/timer/timer_local.h
++++ b/src/timer/timer_local.h
+@@ -83,3 +83,8 @@
+ int INTERNAL(snd_timer_query_params)(snd_timer_query_t *timer, snd_timer_gparams_t *params);
+ int INTERNAL(snd_timer_query_status)(snd_timer_query_t *timer, snd_timer_gstatus_t *status);
+ #endif /* INTERNAL */
++
++#ifndef __kernel_long_t
++typedef long        __kernel_long_t;
++typedef unsigned long    __kernel_ulong_t;
++#endif

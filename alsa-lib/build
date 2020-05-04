@@ -1,0 +1,10 @@
+#!/bin/sh -e
+
+patch -p1 < define-__kernel_long_t.patch
+
+./configure \
+    --without-debug \
+    --prefix=/usr
+
+make
+make DESTDIR="$1" install
