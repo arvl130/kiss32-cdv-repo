@@ -25,8 +25,7 @@ of the system are forever extremely out-of-date, certain other essential things 
 and certificates) are kept up-to-date (and working!). Granted, this project is still
 __Work-in-Progress__ so you may only use it at your _own risk_!
 
-Needless to say, if you manage to make any developments to this front, feel free to submit a PR's as
-those are very much welcome.
+Needless to say, if you ever manage to make any developments to this front, feel free to [submit a PR](https://github.com/arvl130/kiss32-cdv-repo/pull/new/master) as those are very much welcome.
 
 There's only very few of us still using this hardware as it stands ([that's why we never got an open source VA-API driver!](https://www.phoronix.com/scan.php?page=news_item&px=MTAxMTA)).
 So we have to stick together and help each other if we ever want this hardware kept completely working and free of headaches!
