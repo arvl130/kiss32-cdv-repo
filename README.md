@@ -1,4 +1,4 @@
-# [KISS Linux](https://k1ss.org/) for users of the dreaded _Intel GMA3600_ and _GMA3650_ (Cedarview) 🍀 GPU
+# [KISS Linux](https://k1ss.org/) for users of the dreaded _Intel GMA3600_ and _GMA3650_ (🍀 Cedarview) GPU
 
 This repo has one goal:
  * To keep the original binary driver for the Cedarview platform working.
@@ -18,12 +18,14 @@ what is situated in this repo. The most notable of them are:
 Full information on these system requirements are documented here:
 * [https://www.intel.com/content/dam/support/us/en/documents/motherboards/desktop/sb/enabling_hardware_accelerated_playback_fedora_16_v.pdf](https://www.intel.com/content/dam/support/us/en/documents/motherboards/desktop/sb/enabling_hardware_accelerated_playback_fedora_16_v.pdf)
 
+![scrot](https://preview.redd.it/f1770c5fv5x41.png?width=1440&format=png&auto=webp&s=f0cd1396b1a681960413f1ed9b0d9a3b00819f4a)
+
 Put simply, what we're basically trying to do is replicate the system described in the documentation above
 to have a reasonably working hardware-accelerated OS. Then from there, we update the components of the
 system that do not contribute, hinder, or affect that acceleration. So that while certain components
 of the system are forever extremely out-of-date, certain other essential things (like games, browsers,
 and certificates) are kept up-to-date (and working!). Granted, this project is still
-__Work-in-Progress__ so you may have to use it at your _own risk_!
+__Work-in-Progress__ so you may have to use it _at your own risk_!
 
 Needless to say, if you ever manage to make any developments to this front, feel free to [submit a PR](https://github.com/arvl130/kiss32-cdv-repo/pull/new/master) as those are very much welcome.
 
