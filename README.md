@@ -18,14 +18,14 @@ what is situated in this repo. The most notable of them are:
 Full information on these system requirements are documented here:
 * [https://www.intel.com/content/dam/support/us/en/documents/motherboards/desktop/sb/enabling_hardware_accelerated_playback_fedora_16_v.pdf](https://www.intel.com/content/dam/support/us/en/documents/motherboards/desktop/sb/enabling_hardware_accelerated_playback_fedora_16_v.pdf)
 
-Put simply, what we're basically trying to do is replicate the system described in the documentation
-to have a reasonably working hardware acceleration. Then from there, we update the components of the
+Put simply, what we're basically trying to do is replicate the system described in the documentation above
+to have a reasonably working hardware-accelerated OS. Then from there, we update the components of the
 system that do not contribute, hinder, or affect that acceleration. So that while certain components
 of the system are forever extremely out-of-date, certain other essential things (like games, browsers,
 and certificates) are kept up-to-date (and working!). Granted, this project is still
-__Work-in-Progress__ so you may only use it at your _own risk_!
+__Work-in-Progress__ so you may have to use it at your _own risk_!
 
 Needless to say, if you ever manage to make any developments to this front, feel free to [submit a PR](https://github.com/arvl130/kiss32-cdv-repo/pull/new/master) as those are very much welcome.
 
 There's only very few of us still using this hardware as it stands ([that's why we never got an open source VA-API driver!](https://www.phoronix.com/scan.php?page=news_item&px=MTAxMTA)).
-So we have to stick together and help each other if we ever want this hardware kept completely working and free of headaches!
+So we have to stick together and help each other, if we ever want to keep this hardware completely working and free of headaches!
