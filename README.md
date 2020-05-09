@@ -29,5 +29,8 @@ __Work-in-Progress__ so you may have to use it _at your own risk_!
 
 Needless to say, if you ever manage to make any developments to this front, feel free to [submit a PR](https://github.com/arvl130/kiss32-cdv-repo/pull/new/master) as those are very much welcome.
 
-There's only very few of us still using this hardware as it stands ([that's why we never got an open source VA-API driver!](https://www.phoronix.com/scan.php?page=news_item&px=MTAxMTA)).
-So we have to stick together and help each other, if we ever want to keep this hardware completely working and free of headaches!
+# Installation
+
+The chroot script and tarball can be downloaded from the [Releases](https://github.com/arvl130/kiss32-cdv-repo/releases) page of this respository.
+
+General instructions on how to install can be found on the upstream KISS website: [https://k1ss.org/install](https://k1ss.org/install)
