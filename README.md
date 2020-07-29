@@ -1,4 +1,4 @@
-# 🍀[KISS Linux](https://k1ss.org/) for users of the Intel GMA3600/GMA3650 Cedarview GPU
+# 🍀 [KISS Linux](https://k1ss.org/) for users of the Intel GMA3600/GMA3650 Cedarview GPU
 
 This repo has one goal:
  * To keep the original binary driver for the Cedarview platform working.
